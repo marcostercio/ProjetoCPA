@@ -49,7 +49,7 @@
 </a>
     </div>
     <div class="col">
-     <p class="pt-3 mx-auto"> © 2018 by faculdade do distrito federal - facdf. todos os direitos reservados.</p>
+     <p class="pt-3 mx-auto"> © 2018 by faculdade do Distrito Federal - facdf. todos os direitos reservados.</p>
      
     </div>
     <div class="col pt-3">
