@@ -106,7 +106,7 @@
 						</a>
 					</div>
 					<div class="col">
-						<p class="pt-3 mx-auto"> © 2018 by faculdade do distrito federal - facdf. todos os direitos reservados.</p>
+						<p class="pt-3 mx-auto"> © 2018 by Faculdade do Distrito Federal - FACDF. Todos os direitos reservados.</p>
 					</div>
 					<div class="col pt-3">
 						<a class="badge badge-dark p-2"  href="http://bit.ly/5561991324926">Whatsapp</a></span>
