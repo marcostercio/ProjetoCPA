@@ -141,6 +141,7 @@ public function selecionarUnicoQuestionario($id){
       }
       public function gerarRelatorio($codigoquestionario){
         $pdo=conexao::getInstance();
+        $relatorio = $pdo->prepare("SET SESSION group_concat_max_len = 1000000");
         $relatorio = $pdo->prepare("SELECT  GROUP_CONCAT(p.pergunta order by p.cod_pergunta ASC separator ';') nomepergunta,GROUP_CONCAT(p.cod_pergunta order by p.cod_pergunta ASC separator ';') codigopergunta, q.nome nomequestionario, d.titulo titulo from pergunta p 
 
           INNER JOIN dimensao d ON d.cod_dimensao=p.cod_dimensao
